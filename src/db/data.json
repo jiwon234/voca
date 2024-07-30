@@ -1,52 +1,79 @@
 {
-    "days": [
-      { "id": 1, "day": 1 },
-      { "id": 2, "day": 2 },
-      { "id": 3, "day": 3 },
-      { "id": 4, "day": 4 }
-    ],
-    "words": [
-      {
-        "id": 1,
-        "day": 1,
-        "eng": "book",
-        "kor": "책",
-        "isDone": true
-      },
-      {
-        "id": 2,
-        "day": 1,
-        "eng": "apple",
-        "kor": "사과",
-        "isDone": false
-      },
-      {
-        "id": 3,
-        "day": 2,
-        "eng": "car",
-        "kor": "자동차",
-        "isDone": false
-      },
-      {
-        "id": 4,
-        "day": 2,
-        "eng": "pen",
-        "kor": "펜",
-        "isDone": false
-      },
-      {
-        "id": 5,
-        "day": 3,
-        "eng": "school",
-        "kor": "학교",
-        "isDone": false
-      },
-      {
-        "id": 6,
-        "day": 3,
-        "eng": "pencil",
-        "kor": "연필",
-        "isDone": false
-      }
-    ]
-  }
+  "days": [
+    {
+      "id": "1",
+      "day": 1
+    },
+    {
+      "id": "2",
+      "day": 2
+    },
+    {
+      "id": "3",
+      "day": 3
+    },
+    {
+      "id": "4",
+      "day": 4
+    },
+    {
+      "id": "6921",
+      "day": 5,
+      "isDone": false
+    },
+    {
+      "id": "e3dc",
+      "day": 6,
+      "isDone": false
+    },
+    {
+      "id": "c131",
+      "day": 7,
+      "isDone": false
+    }
+  ],
+  "words": [
+    {
+      "id": "5",
+      "day": 3,
+      "eng": "school",
+      "kor": "학교",
+      "isDone": false
+    },
+    {
+      "id": "a4a7",
+      "day": "1",
+      "eng": "apple",
+      "kor": "사과",
+      "isDone": false
+    },
+    {
+      "id": "ac09",
+      "day": "3",
+      "eng": "house",
+      "kor": "집",
+      "isDone": false
+    },
+    {
+      "id": "4dce",
+      "day": "4",
+      "eng": "mouse",
+      "kor": "쥐",
+      "isDone": false
+    },
+    {
+      "id": "34fa",
+      "day": "5",
+      "eng": "monkey",
+      "kor": "원숭이",
+      "isDone": false
+    },
+    {
+      "id": "4120",
+      "day": "3",
+      "eng": "dog",
+      "kor": "개",
+      "isDone": false
+    }
+  ]
+}
