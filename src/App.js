@@ -16,7 +16,8 @@ function App() {
           <Route path="/day/:day" element={<Day />} />
           <Route path="/create_word" element={<CreateWord />} />
           <Route path="/create_day" element={<CreateDay />} />
-          <Route path="*" element={<EmptyPage />} />
+          <Route path="*" element={<EmptyPage />} /> 
+          {/*emptypage의 작동이 안돼*/}
         </Routes>
       </div>
     </BrowserRouter>

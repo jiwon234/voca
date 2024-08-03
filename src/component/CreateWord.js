@@ -57,7 +57,7 @@ export default function CreateWord() {
                     ))}
                 </select>
             </div>
-            <button
+            <button 
             style={{
                 opacity: isLoading? 0.3:1,
             }}>{isLoading? "Saving...?" : "저장"}</button>

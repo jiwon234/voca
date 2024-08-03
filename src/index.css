@@ -1,3 +1,6 @@
+.no-select {
+  user-select: none; /* 텍스트 선택 방지 */
+}
 body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -13,6 +16,7 @@ body {
     margin: 0;
     padding: 0;
     list-style: none;
+    user-select: none; /* 텍스트 선택 방지 */
   }
   
   code {
@@ -48,6 +52,7 @@ body {
     font-weight: bold;
     border-radius: 4px;
   }
+
   
   .list_day {
     display: flex;
@@ -73,6 +78,7 @@ body {
   table {
     border-collapse: collapse;
     width: 100%;
+    user-select: none; /* 텍스트 선택 방지 */
   }
   table td {
     width: 25%;
@@ -91,22 +97,17 @@ body {
     color: #ccc;
   }
   
-  .btn_del {
+  .btn_lg {
+    border: 1px solid #333;
+    padding: 10px;
     margin-left: 10px;
-    color: #fff;
-    background-color: firebrick;
+    background-color: #efefef;
+    font-weight: bold;
+    border-radius: 4px;
   }
   
   button {
-    padding: 10px;
-    font-weight: bold;
-    font-size: 18px;
-    cursor: pointer;
-    border: 0 none;
-    border-radius: 6px;
-    padding: 10px 20px;
-    color: #fff;
-    background-color: dodgerblue;
+    
   }
   
   .input_area {
@@ -130,3 +131,4 @@ body {
     height: 40px;
     font-size: 20px;
   }
+
