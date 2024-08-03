@@ -30,6 +30,11 @@
       "id": "c131",
       "day": 7,
       "isDone": false
+    },
+    {
+      "id": "c393",
+      "day": 8,
+      "isDone": false
     }
   ],
   "words": [
@@ -45,7 +50,7 @@
       "day": "1",
       "eng": "apple",
       "kor": "사과",
-      "isDone": false
+      "isDone": true
     },
     {
       "id": "ac09",
@@ -73,6 +78,76 @@
       "day": "3",
       "eng": "dog",
       "kor": "개",
+      "isDone": false
+    },
+    {
+      "id": "e5c1",
+      "day": "2",
+      "eng": "coffee",
+      "kor": "커피",
+      "isDone": false
+    },
+    {
+      "id": "e96d",
+      "day": "1",
+      "eng": "make",
+      "kor": "만들다",
+      "isDone": true
+    },
+    {
+      "id": "278f",
+      "day": "1",
+      "eng": "have ",
+      "kor": "가지다",
+      "isDone": false
+    },
+    {
+      "id": "9ff5",
+      "day": "1",
+      "eng": "meet",
+      "kor": "만나다",
+      "isDone": false
+    },
+    {
+      "id": "437c",
+      "day": "1",
+      "eng": "job",
+      "kor": "직업",
+      "isDone": false
+    },
+    {
+      "id": "8a17",
+      "day": "1",
+      "eng": "love",
+      "kor": "사랑",
+      "isDone": false
+    },
+    {
+      "id": "a2c5",
+      "day": "1",
+      "eng": "activity",
+      "kor": "활동",
+      "isDone": false
+    },
+    {
+      "id": "f16a",
+      "day": "1",
+      "eng": "trip",
+      "kor": "여행",
+      "isDone": false
+    },
+    {
+      "id": "ce4d",
+      "day": "1",
+      "eng": "name",
+      "kor": "이름",
+      "isDone": false
+    },
+    {
+      "id": "acca",
+      "day": "1",
+      "eng": "place",
+      "kor": "장소",
       "isDone": false
     }
   ]
