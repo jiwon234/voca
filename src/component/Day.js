@@ -16,15 +16,18 @@ export default function Day() {
 
     return (
     <>
-        <h2 className="no-select">
-            <Link to={`/day/${previousDay}`} className="link"><img src={icon_leftArrow} alt="" style={{marginRight: '1em', height:'0.7em'}}/></Link>
-                Day {day}   
-            <Link to={`/day/${nextDay}`} className="link"><img src={icon_rightArrow} alt="" style={{marginLeft: '1em', height:'0.7em'}}/></Link>
+    <div className="flex flex-row justify-between">
+        <h2 className="m-3 flex flex-wrap items-center">
+                <Link to={`/day/${previousDay}`} className="link"><img src={icon_leftArrow} alt="" className="h-4"/></Link>
+                    <div className="text-2xl mx-3">Day {day}</div>
+                <Link to={`/day/${nextDay}`} className="link"><img src={icon_rightArrow} alt="" className="h-4"/></Link>
         </h2> 
+        <button className="m-3 text-sm text-slate-400 underline underline-offset-2">뜻 가리기</button>
+    </div>
         {/*해당 요일에 로딩할 단어가 없을 경우*/}
-        {words.length === 0 && <span>Loading...</span>}
+        {words.length === 0 && <span className="text-lg m-3">Loading...</span>}
 
-        <table className="table-auto">
+        <table className="table table-fixed">
             <tbody>
                 {words.map(word => (
                     <Word word={word} key={word.id} />

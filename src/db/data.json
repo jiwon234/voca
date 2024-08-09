@@ -50,6 +50,16 @@
       "id": "99f5",
       "day": 11,
       "isDone": false
+    },
+    {
+      "id": "d6bf",
+      "day": 12,
+      "isDone": false
+    },
+    {
+      "id": "ebbe",
+      "day": 13,
+      "isDone": false
     }
   ],
   "words": [
@@ -96,25 +106,11 @@
       "isDone": false
     },
     {
-      "id": "e5c1",
-      "day": "2",
-      "eng": "coffee",
-      "kor": "커피",
-      "isDone": false
-    },
-    {
-      "id": "e96d",
-      "day": "1",
-      "eng": "make",
-      "kor": "만들다",
-      "isDone": true
-    },
-    {
       "id": "278f",
       "day": "1",
       "eng": "have ",
       "kor": "가지다",
-      "isDone": false
+      "isDone": true
     },
     {
       "id": "9ff5",

@@ -38,7 +38,7 @@ export default function CreateWord() {
     const dayRef = useRef(null);
 
     return (
-        <form onSubmit={onSubmit}>
+        <form onSubmit={onSubmit} className="m-3">
             <div className="input_area">
                 <label>Eng</label>
                 <input type="text" placeholder="computer" ref={engRef} />
@@ -49,7 +49,7 @@ export default function CreateWord() {
             </div>
             <div className="input_area">
                 <label>Day</label>
-                <select ref={dayRef} >
+                <select className="select_box" ref={dayRef} >
                     {days.map(day => (
                         <option key={day.id} value={day.day}>
                             {day.day}
@@ -57,7 +57,7 @@ export default function CreateWord() {
                     ))}
                 </select>
             </div>
-            <button 
+            <button className="btn mt-5"
             style={{
                 opacity: isLoading? 0.3:1,
             }}>{isLoading? "Saving...?" : "저장"}</button>

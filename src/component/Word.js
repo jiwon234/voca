@@ -50,14 +50,15 @@ export default function Word({ word:w }) {
         return null;
     }
 
+
     return (
         <tr className={isDone ? "off" : ""}>
-            <td>
+            <td className="td-btn">
                 <input type="checkbox" checked={isDone} onChange={toggleDone}/>
             </td>
-            <td onClick={toggleShow}>{word.eng}</td>
-            <td onClick={toggleShow}>{isShow && word.kor}</td> {/*setIsShow로 열람*/}
-            <td className="">
+            <td onClick={toggleShow} className="td-text">{word.eng}</td>
+            <td onClick={toggleShow} className="td-text">{isShow && word.kor}</td> {/*setIsShow로 열람*/}
+            <td className="td-btn">
                 {/*<button onClick={toggleShow}>뜻 {isShow ? "숨기기" : "보기"}</button>*/}
                 <button onClick={del} className="btn_del">x</button>
             </td>

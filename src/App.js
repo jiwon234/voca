@@ -9,7 +9,7 @@ import CreateDay from "./component/CreateDay";
 function App() {
   return (
     <BrowserRouter>
-      <div className="App">
+      <div className="max-w-screen-sm mx-auto no-select">
         <Header />
         <Routes> {/* 이부분만 url에 따라 바뀝니다. */}
           <Route path="/" element={<DayList />} />

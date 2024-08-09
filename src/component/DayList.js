@@ -10,12 +10,13 @@ export default function DayList() {
     }
 
     return (
-        <ul className="list_day">
-            {days.map(day => ( //days의 각 개체를 day라고 지칭 
-                <li key={day.id}> {/*key는 있는게 좋다네*/}
-                    <Link to={`/day/${day.day}`}>Day {day.day}</Link>
-                </li>
-            ))}
-        </ul>
+            <ul className="grid grid-cols-2 sm:grid-cols-5 gap-4 m-2">
+                {days.map(day => ( //days의 각 개체를 day라고 지칭 
+                    <li key={day.id} className="h-24 rounded-lg shadow-lg hover:bg-gray-200 duration-100"> {/*key는 있는게 좋다네*/}
+                        <Link to={`/day/${day.day}`}
+                        className="text-lg flex items-center justify-center h-full w-full">Day {day.day}</Link>
+                    </li>
+                ))}
+            </ul>
     );
 }

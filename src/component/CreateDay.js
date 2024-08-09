@@ -25,9 +25,9 @@ export default function CreateDay() {
         });
     }
     return (
-        <div>
-            <h3>현재 일수: {days.length}일</h3>
-            <button onClick={addDay}>Day 추가</button>
+        <div className="m-3">
+            <h3 className="text-lg mb-3 font-semibold">현재 일수: {days.length}일</h3>
+            <button onClick={addDay} className="btn">Day 추가</button>
         </div>
     )
 };
