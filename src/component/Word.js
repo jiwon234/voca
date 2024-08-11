@@ -52,6 +52,7 @@ export default function Word({ word:w }) {
 
 
     return (
+    <>
         <tr className={isDone ? "off" : ""}>
             <td className="td-btn">
                 <input type="checkbox" checked={isDone} onChange={toggleDone}/>
@@ -63,5 +64,6 @@ export default function Word({ word:w }) {
                 <button onClick={del} className="btn_del">x</button>
             </td>
         </tr>
+    </>
     )
 };

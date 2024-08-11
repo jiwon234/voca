@@ -30,6 +30,11 @@
   user-select: none;
   @apply w-full text-lg text-left rtl:text-right;
 }
+
+.table-fixed th,
+.table-fixed td {
+    @apply border border-slate-300;
+}
 td {
   @apply p-3;
 }

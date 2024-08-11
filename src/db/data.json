@@ -75,7 +75,7 @@
       "day": "1",
       "eng": "apple",
       "kor": "사과",
-      "isDone": true
+      "isDone": false
     },
     {
       "id": "ac09",
@@ -124,7 +124,7 @@
       "day": "1",
       "eng": "job",
       "kor": "직업",
-      "isDone": false
+      "isDone": true
     },
     {
       "id": "8a17",
@@ -152,7 +152,7 @@
       "day": "1",
       "eng": "name",
       "kor": "이름",
-      "isDone": false
+      "isDone": true
     },
     {
       "id": "acca",
