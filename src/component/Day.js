@@ -27,19 +27,23 @@ export default function Day() {
         {/*해당 요일에 로딩할 단어가 없을 경우*/}
         {words.length === 0 && <span className="text-lg m-3">Loading...</span>}
 
-        <table className="table table-fixed border border-slate-500 border-collapse">
-            <tbody className="">
-                <tr>
-                    <th></th>
-                    <th className="text-center td-text">word</th>
-                    <th className="text-center td-text">meaning</th>
-                    <th></th>
-                </tr>
-                {words.map(word => (
-                    <Word word={word} key={word.id} />
-                ))}
-            </tbody>
-        </table>
+        {words.length > 0 && (
+            <table className="table table-fixed border border-slate-500 border-collapse">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th className="text-center td-text">word</th>
+                        <th className="text-center td-text">meaning</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody className="">
+                    {words.map(word => (
+                        <Word word={word} key={word.id} />
+                    ))}
+                </tbody>
+            </table>
+        )}
     </>
     );
 };
