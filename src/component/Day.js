@@ -4,6 +4,7 @@ import useFetch from "../hooks/useFetch";
 import icon_leftArrow from "../icon/icon-arrow-left.png";
 import icon_rightArrow from "../icon/icon-arrow-right.png";
 import { Link } from "react-router-dom"
+import { useState } from "react";
 
 //요일별 단어장 페이지
 export default function Day() {
@@ -14,6 +15,12 @@ export default function Day() {
     const previousDay = parseInt(day, 10) - 1;
     const nextDay = parseInt(day, 10) + 1;
 
+    const [isShowAll, setIsShowAll] = useState(false);
+
+    function toggleShowAll() {
+        setIsShowAll(!isShowAll);
+    }
+
     return (
     <>
     <div className="flex flex-row justify-between">
@@ -22,7 +29,7 @@ export default function Day() {
                     <div className="text-2xl mx-3">Day {day}</div>
                 <Link to={`/day/${nextDay}`} className="link"><img src={icon_rightArrow} alt="" className="h-4"/></Link>
         </h2> 
-        <button className="m-3 text-sm text-slate-400 underline underline-offset-2">뜻 가리기</button>
+        <button onClick={toggleShowAll} className="m-3 text-sm text-slate-400 underline underline-offset-2">{isShowAll ? "뜻 숨기기" : "뜻 보기"}</button>
     </div>
         {/*해당 요일에 로딩할 단어가 없을 경우*/}
         {words.length === 0 && <span className="text-lg m-3">Loading...</span>}
@@ -39,7 +46,7 @@ export default function Day() {
                 </thead>
                 <tbody className="">
                     {words.map(word => (
-                        <Word word={word} key={word.id} />
+                        <Word word={word} key={word.id} isShowAll={isShowAll}/>
                     ))}
                 </tbody>
             </table>

@@ -1,9 +1,14 @@
 import React, { useState } from 'react';
+import { useEffect } from 'react';
 
-export default function Word({ word:w }) {
+export default function Word({ word:w, isShowAll}) {
     const [word, setWord] = useState(w); //w는 불변값. 초기값 설정에만 사용
-    const [isShow, setIsShow] = useState(false);
+    const [isShow, setIsShow] = useState(isShowAll);
     const [isDone, setIsDone] = useState(word.isDone);
+
+    useEffect(() => {
+        setIsShow(isShowAll); // isShowAll이 변경될 때마다 isShow도 업데이트
+    }, [isShowAll]);
 
     //뜻 열람 - show
     function toggleShow() {
