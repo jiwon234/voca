@@ -1,6 +1,6 @@
 import { useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import useFetch from "../hooks/useFetch";
+import useFetch from "../../hooks/useFetch";
 
 export default function CreateWord() {
     const days= useFetch(`http://localhost:3001/days`)

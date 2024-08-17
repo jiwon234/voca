@@ -1,4 +1,4 @@
-import useFetch from "../hooks/useFetch"
+import useFetch from "../../hooks/useFetch"
 import { useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
@@ -15,7 +15,7 @@ export default function CreateDay() {
             headers: {
                 "Content-Type": "application/json",
             },
-            body: JSON.stringify({
+            body: JSON.stringify({ //JSON에 이런 세트를 추가하는거인듯
                 day: days.length + 1, 
                 isDone: false
             }),

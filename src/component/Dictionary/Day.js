@@ -1,8 +1,8 @@
 import { useParams } from "react-router-dom";
 import Word from './Word';
-import useFetch from "../hooks/useFetch";
-import icon_leftArrow from "../icon/icon-arrow-left.png";
-import icon_rightArrow from "../icon/icon-arrow-right.png";
+import useFetch from "../../hooks/useFetch";
+import icon_leftArrow from "../../icon/icon-arrow-left.png";
+import icon_rightArrow from "../../icon/icon-arrow-right.png";
 import { Link } from "react-router-dom"
 import { useState } from "react";
 

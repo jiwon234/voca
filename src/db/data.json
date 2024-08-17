@@ -60,6 +60,21 @@
       "id": "ebbe",
       "day": 13,
       "isDone": false
+    },
+    {
+      "id": "a877",
+      "day": 14,
+      "isDone": false
+    },
+    {
+      "id": "339b",
+      "day": 15,
+      "isDone": false
+    },
+    {
+      "id": "07b0",
+      "day": 16,
+      "isDone": false
     }
   ],
   "words": [
@@ -68,13 +83,6 @@
       "day": 3,
       "eng": "school",
       "kor": "학교",
-      "isDone": false
-    },
-    {
-      "id": "a4a7",
-      "day": "1",
-      "eng": "apple",
-      "kor": "사과",
       "isDone": false
     },
     {
@@ -117,7 +125,7 @@
       "day": "1",
       "eng": "meet",
       "kor": "만나다",
-      "isDone": false
+      "isDone": true
     },
     {
       "id": "437c",
@@ -131,21 +139,21 @@
       "day": "1",
       "eng": "love",
       "kor": "사랑",
-      "isDone": false
+      "isDone": true
     },
     {
       "id": "a2c5",
       "day": "1",
       "eng": "activity",
       "kor": "활동",
-      "isDone": false
+      "isDone": true
     },
     {
       "id": "f16a",
       "day": "1",
       "eng": "trip",
       "kor": "여행",
-      "isDone": false
+      "isDone": true
     },
     {
       "id": "ce4d",
@@ -159,7 +167,7 @@
       "day": "1",
       "eng": "place",
       "kor": "장소",
-      "isDone": false
+      "isDone": true
     }
   ]
 }
