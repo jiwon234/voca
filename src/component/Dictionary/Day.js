@@ -21,6 +21,14 @@ export default function Day() {
         setIsShowAll(!isShowAll);
     }
 
+    // 수행률 계산
+    const dayItems = words.filter(item => item.day == day);
+    const doneItemsCount = dayItems.filter(item => item.isDone).length;
+    const totalItemsCount = dayItems.length;
+    const donePercentage = totalItemsCount > 0 ? (doneItemsCount / totalItemsCount) * 100: 0;
+
+    console.log(`Day에서 완료된 항목의 비율: ${donePercentage}%`);
+
     return (
     <>
     <div className="flex flex-row justify-between">
