@@ -75,6 +75,11 @@
       "id": "07b0",
       "day": 16,
       "isDone": false
+    },
+    {
+      "id": "258e",
+      "day": 17,
+      "isDone": false
     }
   ],
   "words": [
@@ -87,84 +92,84 @@
     },
     {
       "id": "ac09",
-      "day": "3",
+      "day": 3,
       "eng": "house",
       "kor": "집",
       "isDone": false
     },
     {
       "id": "4dce",
-      "day": "4",
+      "day": 4,
       "eng": "mouse",
       "kor": "쥐",
-      "isDone": false
+      "isDone": true
     },
     {
       "id": "34fa",
-      "day": "5",
+      "day": 5,
       "eng": "monkey",
       "kor": "원숭이",
-      "isDone": false
+      "isDone": true
     },
     {
       "id": "4120",
-      "day": "3",
+      "day": 3,
       "eng": "dog",
       "kor": "개",
-      "isDone": false
+      "isDone": true
     },
     {
       "id": "278f",
-      "day": "1",
+      "day": 1,
       "eng": "have ",
       "kor": "가지다",
-      "isDone": true
+      "isDone": false
     },
     {
       "id": "9ff5",
-      "day": "1",
+      "day": 1,
       "eng": "meet",
       "kor": "만나다",
-      "isDone": true
+      "isDone": false
     },
     {
       "id": "437c",
-      "day": "1",
+      "day": 1,
       "eng": "job",
       "kor": "직업",
-      "isDone": true
+      "isDone": false
     },
     {
       "id": "8a17",
-      "day": "1",
+      "day": 1,
       "eng": "love",
       "kor": "사랑",
-      "isDone": true
+      "isDone": false
     },
     {
       "id": "a2c5",
-      "day": "1",
+      "day": 1,
       "eng": "activity",
       "kor": "활동",
-      "isDone": true
+      "isDone": false
     },
     {
       "id": "f16a",
-      "day": "1",
+      "day": 1,
       "eng": "trip",
       "kor": "여행",
       "isDone": true
     },
     {
       "id": "ce4d",
-      "day": "1",
+      "day": 1,
       "eng": "name",
       "kor": "이름",
       "isDone": true
     },
     {
       "id": "acca",
-      "day": "1",
+      "day": 1,
       "eng": "place",
       "kor": "장소",
       "isDone": true
