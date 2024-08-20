@@ -7,10 +7,10 @@ export default function Header() {
             <Link to="/">토익 영단어 (고급)</Link>
         </h1>
         <div className="flex space-x-4">
-            <Link to="/create_word" className="btn">
+            <Link to="/create_word" className="btn bg-blue-600 text-white font-bold hover:bg-blue-500">
                 단어 추가
             </Link>
-            <Link to="/create_day" className="btn">
+            <Link to="/create_day" className="btn bg-blue-600 text-white font-bold hover:bg-blue-500">
                 Day 추가
             </Link>
         </div>

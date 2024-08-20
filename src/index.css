@@ -19,7 +19,7 @@
 
 
 .select_box {
-  @apply h-10 w-24  bg-gray-50 border border-gray-300 rounded-lg p-2.5;
+  @apply h-11 w-24  bg-gray-50 border border-gray-300 rounded-lg p-2.5;
 }
 
 .btn {
